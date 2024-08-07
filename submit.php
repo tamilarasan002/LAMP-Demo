@@ -1,6 +1,6 @@
 <?php
 // Database connection parameters
-$host = '/cloudql/';
+$host = '/cloudsql/';
 $db = 'postgres';
 $user = 'postgres';
 $pass = '12qwaszx';
