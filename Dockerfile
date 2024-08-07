@@ -15,8 +15,8 @@ COPY . ./
 # Expose port 8080
 EXPOSE 8080
 
-# Change Apache to listen to the PORT environment variable, defaulting to 8080
-ENV PORT=8085
+# Set environment variable for the port
+ENV PORT 8080
 RUN sed -i "s/Listen 80/Listen ${PORT}/" /etc/apache2/ports.conf && \
     sed -i "s/:80/:${PORT}/" /etc/apache2/sites-available/000-default.conf
 
