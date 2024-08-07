@@ -1,6 +1,6 @@
 <?php
 // Database connection parameters
-$host = '/cloudsql/';
+$host = '/cloudsql/studious-nature-396016:us-central1:postgres';
 $db = 'postgres';
 $user = 'postgres';
 $pass = '12qwaszx';
